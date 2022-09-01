@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,700;1,400;1,700&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+    body{
+    
+        font-family: 'Cormorant Garamond', serif;
+         background: #fff;
+    }
+
+    span{
+        color: brown;
+        padding-left: 15px;
+    
+    }
+    
+    #container h1{
+        padding: 30px;
+        font-size: 45px;
+    }
+    ul.menu{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    
+    .menu li{
+        list-style: none;
+        display: inline;
+        padding: 5px;  
+    }
+    
+    .menu a{
+        text-decoration: none;
+        font-size: 20px;
+    }
+    
+    .menu a:hover{
+    
+        background-color: rgb(213, 214, 214);
+        
+    
+    }
+    header{
+        text-align: center;
+         font-size: large; 
+        padding: 20px;
+       
+    }
+    
+    section{
+        
+        padding: 2.5rem;
+      
+      
+    }
+    
+    h2{
+        margin-top: 2rem;
+        text-align: center;
+        font-size:35px;
+        padding: 10px;
+        color: #000;
+        margin-bottom: 2.5rem;
+        text-shadow: 1px 0px 1px #ccc, 0px 1px 1px #eee, 2px 1px 1px #c9c4c4, 1px 2px 1px #eee, 3px 2px 1px #ccc, 2px 3px 1px #eee, 4px 3px 1px #ccc, 3px 4px 2px #eee, 5px 4px 1px #ccc, 4px 5px 1px #eee, 6px 5px 1px #ccc, 5px 6px 1px #eee, 7px 6px 1px #ccc;
+    }
+    .container-body{
+    
+        padding: 1rem;
+    }
+       
+    
+    
+     img{
+        border: 3px solid rgb(5, 5, 5);
+        border-radius: 5px;
+        float: left;
+        margin-right: 15px;
+        width: 45%;
+        height: 15rem;
+     
+         
+    }
+     .content{
+        display: flex;
+        justify-content: center ;
+        padding: 20px 20px;
+        width: 450px;
+        height: 300px;
+        line-height: 50px;
+        margin-left: 15px;
+        
+        
+     }
+     .container-image{
+        width: 100%;
+     }
+     p{
+        line-height: 30px;
+         
+     }
+     h4{
+         color: #ffff;
+         margin-bottom: 20px;
+    
+     }
+
+/*      tablet */
+
+@media(min-width:768px){
+
+    ul.menu {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    img{
+        border: 1px solid rgb(5, 5, 5);
+        margin-right: 2rem;   
+        margin-bottom: 1rem; 
+    }
+}
+
+/*    desktop*/
+
+@media(min-width:1024px){
+
+    
+    section{
+        
+        padding:  0 5rem;
+      
+      
+    }
+    p{
+        font-size: 20px;
+    }
+    
+    img{
+        border: 1px solid rgb(5, 5, 5);
+        margin-right: 2rem;   
+        margin-bottom: 1rem; 
+        width: 45%;
+        height: 25rem;
+    }
+}
